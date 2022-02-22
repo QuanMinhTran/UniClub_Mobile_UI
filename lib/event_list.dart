@@ -149,7 +149,6 @@ class EventList extends StatelessWidget {
             ),
           ),
         ),
-
         InkWell(
           onTap: (){
             Navigator.of(context).push(MaterialPageRoute(
