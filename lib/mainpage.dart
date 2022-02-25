@@ -33,7 +33,7 @@ class _MainPageState extends State<MainPage> {
       child: NavigationBar(
         height: 65,
         backgroundColor:  Colors.cyan,
-        labelBehavior: NavigationDestinationLabelBehavior.onlyShowSelected,
+        labelBehavior: NavigationDestinationLabelBehavior.alwaysHide,
         selectedIndex: index,
         animationDuration: Duration(seconds: 1),
         onDestinationSelected: (index) =>
@@ -45,9 +45,9 @@ class _MainPageState extends State<MainPage> {
               label: 'Trang chủ',
           ),
           NavigationDestination(
-              icon: Icon(Icons.shopping_basket_outlined),
-              selectedIcon: Icon(Icons.shopping_basket),
-              label: 'CLB'
+              icon: Icon(Icons.menu_book_outlined),
+              selectedIcon: Icon(Icons.menu_book),
+              label: 'Club'
           ),
           NavigationDestination(
               icon: Icon(Icons.my_library_books_outlined),
