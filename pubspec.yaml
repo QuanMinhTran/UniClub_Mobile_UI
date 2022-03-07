@@ -1,4 +1,4 @@
-name: flutter_new_3
+name: test_app
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -18,7 +18,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">=2.16.0 <3.0.0"
+  sdk: ">=2.16.1 <3.0.0"
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -52,24 +52,45 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
 
+  fonts:
+  - family: Acumin-italic
+    fonts:
+      - asset: Fonts/Acumin-ItPro.otf
+      - asset: Fonts/Acumin-RPro.otf
+        style: italic
+  - family: Acumin-bold
+    fonts:
+      - asset: Fonts/Acumin-BdPro.otf
+      - asset: Fonts/Acumin-BdItPro.otf
+        weight: 700
+  - family: Poppins-bold
+    fonts:
+      - asset: Fonts/Poppins-Bold.ttf
+        weight: 700
+  - family: Poppins-italic
+    fonts:
+      - asset: Fonts/Poppins-Italic.ttf
+        style: italic
+  - family: Poppins-light
+    fonts:
+      - asset: Fonts/Poppins-Light.ttf
+  - family: Poppins-medium
+    fonts:
+      - asset: Fonts/Poppins-Medium.ttf
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-  fonts:
-    - family: Acumin-italic
-      fonts:
-        - asset: Fonts/Acumin-ItPro.otf
-        - asset: Fonts/Acumin-RPro.otf
-          style: italic
-    - family: Acumin-bold
-      fonts:
-        - asset: Fonts/Acumin-BdPro.otf
-        - asset: Fonts/Acumin-BdItPro.otf
-          weight: 700
+
   assets:
     - Images/avatar.png
     - Images/default_event.png
+    - Images/icon_bean.png
+    - Images/gift.png
+    - Images/tickets.jpg
+    - Images/tasks.png
+    - Images/ticket_outline_2.jpg
+    - Images/QR_Test.jpeg
   # To add assets to your application, add an assets section, like this:
   # assets:
   #   - images/a_dot_burr.jpeg
